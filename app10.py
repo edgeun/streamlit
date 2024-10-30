@@ -51,6 +51,7 @@ def get_response(user_input):
 
 # Streamlit 인터페이스
 st.title("통행약자 안전 어시스턴트 서비스 \n 포트폴리오 질문 챗봇")
+st.image("jang.png", caption="Portfolio Question Chatbot", use_column_width=True)  # 이미지 추가
 st.write("저희가 만든 포트폴리오에 대해서 질문해주세요. 예: 주제가 무엇인가요?")
 
 user_input = st.text_input("user", "")
